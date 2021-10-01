@@ -8,9 +8,9 @@ gc()
 #
 # Simulation parameters
 #
-LOW  <- 85                 # Lower threshold (%)
-HIGH <- 95                 # Upper threshold (%)
-N    <- 96                 # Sample size
+LOW  <- 50                 # Lower threshold (%)
+HIGH <- 80                 # Upper threshold (%)
+N    <- 60                 # Sample size
 RUNS <- 100                # Runs at each proportion (total runs / 20)
 FINE <- 0.1                # Granularity of simulated proportions (%)
 SMOOTHER.SPAN <- 1 / 50    # Span for LOWESS smoother for PC plots
